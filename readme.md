@@ -1,4 +1,4 @@
-HOME LOAN VS SIP SIP PLAN
+HOME LOAN VS SIP PLAN
 
 This is a JAVA program that compares the returns on investments when purchasing a home loan 
 using EMI versus investing the capital through a SIP plan.
