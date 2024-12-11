@@ -49,7 +49,7 @@ public class InvestmentComparison {
             double depreciatedValue = asset.calculateDepreciation(year);
             double appreciatedValue = asset.calculateAppreciation(year);
             SIPInvestment yearlysipInvestment = new SIPInvestment(monthlySIP, sipReturnRate, year);
-            double yearlysipReturns = yearlysipInvestment.calculateSIPReturns();
+            double yearlysipReturns = yearlysipInvestment.calculateSIPReturns()-(year*12*monthlySIP);
 
             double interestPaid = endingBalance * (homeLoanInterestRate / 100);
             totalInterestPaid += interestPaid;
